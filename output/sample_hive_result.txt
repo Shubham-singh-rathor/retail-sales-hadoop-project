@@ -1,0 +1,1 @@
+hive -e "USE retail_db; SELECT * FROM sales_data;" > output/sample_hive_result.txt

@@ -1,0 +1,7 @@
+sqoop import \
+--connect jdbc:mysql://localhost/retail \
+--username root \
+--password cloudera \
+--table sales \
+--target-dir /user/cloudera/retail_sales \
+--m 1
